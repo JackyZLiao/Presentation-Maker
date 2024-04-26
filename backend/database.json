@@ -113,34 +113,6 @@
                 }
               }
             ]
-          },
-          "751290338": {
-            "title": "hi",
-            "description": null,
-            "thumbnail": null,
-            "bgTheme": {},
-            "slides": [
-              {
-                "elements": {},
-                "background": {
-                  "type": "solid",
-                  "solidColor": "#ffffff",
-                  "gradientStartColor": null,
-                  "gradientEndColor": null,
-                  "gradientDirection": null
-                }
-              },
-              {
-                "elements": {},
-                "background": {
-                  "type": "solid",
-                  "solidColor": "#ffffff",
-                  "gradientStartColor": "#ffffff",
-                  "gradientEndColor": "#000000",
-                  "gradientDirection": "to bottom"
-                }
-              }
-            ]
           }
         }
       },

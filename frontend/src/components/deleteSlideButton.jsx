@@ -51,7 +51,6 @@ function DeleteSlideButton ({ token, presentationId, slideNumber, drawerOpen }) 
       if (length === 1) {
         alert('Cannot delete the presentation with only one slide !');
         handleClose();
-        return
       } else {
         slides.splice(slideNumber - 1, 1);
         length = slides.length;
