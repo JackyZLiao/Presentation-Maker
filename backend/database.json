@@ -1,0 +1,181 @@
+{
+  "admins": {
+    "": {
+      "name": "",
+      "password": "",
+      "store": {
+        "presentations": {
+          "379819761": {
+            "title": "presentation #2",
+            "description": null,
+            "thumbnail": null,
+            "slides": [
+              {
+                "elements": {
+                  "765782171": {
+                    "type": "image",
+                    "width": 56.5,
+                    "height": 51.9444,
+                    "imageUrl": "https://miro.medium.com/v2/resize:fit:1080/0*A7MUqyCLvZDcHkfM.jpg",
+                    "description": "cute doggy",
+                    "position_x": 189,
+                    "position_y": 197,
+                    "layer": 0
+                  }
+                }
+              },
+              {
+                "elements": {}
+              }
+            ]
+          },
+          "545584299": {
+            "title": "Awesome presentation",
+            "description": null,
+            "thumbnail": "https://preview.redd.it/l9vklw5gh4841.jpg?auto=webp&s=b1f95493722f69733b8f225d371f447e14c5fc60",
+            "slides": [
+              {
+                "elements": {
+                  "380686868": {
+                    "type": "image",
+                    "width": 50,
+                    "height": 50,
+                    "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=1xw:0.74975xh;center,top&resize=1200:*",
+                    "description": "cute dog",
+                    "position_x": 250,
+                    "position_y": 157,
+                    "layer": 0
+                  }
+                }
+              },
+              {
+                "elements": {
+                  "326041940": {
+                    "type": "image",
+                    "width": 45.8,
+                    "height": 42.5,
+                    "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=1xw:0.74975xh;center,top&resize=1200:*",
+                    "description": "cute dog",
+                    "position_x": 139334,
+                    "position_y": 750527,
+                    "layer": 0
+                  },
+                  "781601600": {
+                    "type": "video",
+                    "width": 59.3,
+                    "height": 58.0556,
+                    "videoUrl": "https://videos.pexels.com/video-files/855282/855282-hd_1280_720_25fps.mp4",
+                    "autoplay": true,
+                    "position_x": 185.133,
+                    "position_y": 163.492,
+                    "layer": 1
+                  }
+                }
+              },
+              {
+                "elements": {
+                  "284649119": {
+                    "type": "text",
+                    "content": "HELLLOOO",
+                    "width": 47.5,
+                    "height": 35.4167,
+                    "textSize": 1,
+                    "textColour": "000000",
+                    "position_x": 611181,
+                    "position_y": 429680,
+                    "layer": 0
+                  },
+                  "456814596": {
+                    "type": "text",
+                    "content": "Hello World",
+                    "width": 67.8,
+                    "height": 27.6389,
+                    "textSize": "7",
+                    "textColour": "000000",
+                    "position_x": 287.5,
+                    "position_y": 242.529,
+                    "layer": 1
+                  }
+                }
+              },
+              {
+                "elements": {
+                  "105578240": {
+                    "type": "code",
+                    "content": "export default function EachSlide({ token, pres, presentationId, slideId, slide, setSlide }) {\n  const slidesArray = pres.slides;\n  const length = slidesArray.length;\n  slideId = parseInt(slideId);\n  const navigate = useNavigate();\n  const parentRef = React.useRef(null);\n  const [prevTransition, setPrevTransition] = useState(false);\n  const [nextTransition, setNextTransition] = useState(false);",
+                    "width": 94.6,
+                    "height": 34.0278,
+                    "textSize": 1,
+                    "position_x": 48.4375,
+                    "position_y": 402.948,
+                    "layer": 0
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      "sessionActive": false
+    },
+    "jacky@gmail.com": {
+      "name": "jacky",
+      "password": "hi",
+      "store": {
+        "presentations": {
+          "710369877": {
+            "title": "hello",
+            "description": null,
+            "thumbnail": "presentation #2",
+            "bgTheme": {},
+            "slides": [
+              {
+                "elements": {
+                  "320232353": {
+                    "type": "image",
+                    "width": 53.9,
+                    "height": 59.7143,
+                    "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=1xw:0.74975xh;center,top&resize=1200:*",
+                    "description": "cute dog",
+                    "position_x": 199,
+                    "position_y": 224,
+                    "layer": 1
+                  },
+                  "673823258": {
+                    "type": "text",
+                    "content": "Hello World",
+                    "width": 42.8,
+                    "height": 23.1429,
+                    "textSize": "5",
+                    "textColour": "000000",
+                    "fontFamily": "Times New Roman",
+                    "position_x": 288,
+                    "position_y": 31,
+                    "layer": 0
+                  }
+                },
+                "background": {
+                  "type": "solid",
+                  "solidColor": "#8f6666",
+                  "gradientStartColor": null,
+                  "gradientEndColor": null,
+                  "gradientDirection": null
+                }
+              },
+              {
+                "elements": {},
+                "background": {
+                  "type": "solid",
+                  "solidColor": "#ffffff",
+                  "gradientStartColor": "#ffffff",
+                  "gradientEndColor": "#000000",
+                  "gradientDirection": "to bottom"
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

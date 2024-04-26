@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "@mui/material": "^5.15.15",
+    "image-to-base64": "^2.2.0",
+    "re-resizable": "^6.9.11",
+    "react-code-blocks": "^0.1.6",
+    "react-draggable": "^4.4.6",
+    "react-rnd": "^10.4.1",
+    "react-syntax-highlighter": "^15.5.0"
+  },
+  "devDependencies": {
+    "@types/image-to-base64": "^2.1.2"
+  }
+}
