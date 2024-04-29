@@ -54,7 +54,7 @@ function AddCodeButton ({ token, presentationId, slideNumber, drawerOpen, refres
 
     // Fetch current store of user from database
     try {
-      const response = await axios.get('http://localhost:5005/store', {
+      const response = await axios.get('https://coral-app-gctd3.ondigitalocean.app/store', {
         headers: {
           Authorization: token,
         }
@@ -80,7 +80,7 @@ function AddCodeButton ({ token, presentationId, slideNumber, drawerOpen, refres
       slide.elements[createId()] = newCodeElement; // Putting new element back into payload
 
       // update the user's store now with the new text element
-      await axios.put('http://localhost:5005/store', payload, {
+      await axios.put('https://coral-app-gctd3.ondigitalocean.app/store', payload, {
         headers: {
           Authorization: token,
         }

@@ -96,7 +96,7 @@ const TextElement = ({ token, mode, id, presId, slideNum, elementData, refreshSl
     }
     // Fetch data from backend
     try {
-      const response = await axios.get('http://localhost:5005/store', {
+      const response = await axios.get('https://coral-app-gctd3.ondigitalocean.app/store', {
         headers: {
           Authorization: token,
         }
@@ -108,7 +108,7 @@ const TextElement = ({ token, mode, id, presId, slideNum, elementData, refreshSl
       delete slide.elements[id]; // delete element from store
 
       // update the user's store now without deleted element
-      await axios.put('http://localhost:5005/store', payload, {
+      await axios.put('https://coral-app-gctd3.ondigitalocean.app/store', payload, {
         headers: {
           Authorization: token,
         }

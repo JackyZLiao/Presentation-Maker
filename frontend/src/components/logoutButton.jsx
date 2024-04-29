@@ -8,7 +8,7 @@ function Logout ({ token, setToken }) {
   // backend call to login the user
   const logout = async () => {
     try {
-      await axios.post('http://localhost:5005/admin/auth/logout', {}, {
+      await axios.post('https://coral-app-gctd3.ondigitalocean.app/admin/auth/logout', {}, {
         headers: {
           Authorization: token,
         }

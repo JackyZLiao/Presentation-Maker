@@ -29,7 +29,7 @@ function EditFontButton ({ token, presentationId, slideNumber, drawerOpen, refre
   const handleFontChange = async (fontFamily) => {
     // Fetch current store of user from database
     try {
-      const response = await axios.get('http://localhost:5005/store', {
+      const response = await axios.get('https://coral-app-gctd3.ondigitalocean.app/store', {
         headers: {
           Authorization: token,
         }
@@ -41,7 +41,7 @@ function EditFontButton ({ token, presentationId, slideNumber, drawerOpen, refre
       const element = slide.elements[elementId]; // get element
       element.fontFamily = fontFamily //  change text font family
       // update the user's store now with the new text element
-      await axios.put('http://localhost:5005/store', payload, {
+      await axios.put('https://coral-app-gctd3.ondigitalocean.app/store', payload, {
         headers: {
           Authorization: token,
         }

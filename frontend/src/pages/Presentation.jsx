@@ -134,7 +134,7 @@ const PresentationPage = ({ token }) => {
   const getSlideData = async () => {
     // Fetch current store of user from database
     try {
-      const response = await axios.get('http://localhost:5005/store', {
+      const response = await axios.get('https://coral-app-gctd3.ondigitalocean.app/store', {
         headers: {
           Authorization: token,
         }

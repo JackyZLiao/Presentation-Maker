@@ -28,7 +28,7 @@ function AddSlideButton ({ token, presentationId, drawerOpen, updatePresentation
   const addSlide = async () => {
     // Fetch current store of user from database
     try {
-      const response = await axios.get('http://localhost:5005/store', {
+      const response = await axios.get('https://coral-app-gctd3.ondigitalocean.app/store', {
         headers: {
           Authorization: token,
         }
@@ -43,7 +43,7 @@ function AddSlideButton ({ token, presentationId, drawerOpen, updatePresentation
         background,
       }); //    Add new slide in presentation
       // update the user's store now with the new text element
-      await axios.put('http://localhost:5005/store', payload, {
+      await axios.put('https://coral-app-gctd3.ondigitalocean.app/store', payload, {
         headers: {
           Authorization: token,
         }

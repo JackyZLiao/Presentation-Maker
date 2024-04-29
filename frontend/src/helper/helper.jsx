@@ -14,7 +14,7 @@ export const saveSlidesElements = async (token, slideData, presId, slideNum) => 
   }
 
   try {
-    const response = await axios.get('http://localhost:5005/store', {
+    const response = await axios.get('https://coral-app-gctd3.ondigitalocean.app/store', {
       headers: {
         Authorization: token,
       }
@@ -47,7 +47,7 @@ export const saveSlidesElements = async (token, slideData, presId, slideNum) => 
     })
 
     // update the user's store now without deleted element
-    await axios.put('http://localhost:5005/store', payload, {
+    await axios.put('https://coral-app-gctd3.ondigitalocean.app/store', payload, {
       headers: {
         Authorization: token,
       }
@@ -63,7 +63,7 @@ export const saveElementStyle = async (token, elementData, presId, slideNum, nav
   }
 
   try {
-    const response = await axios.get('http://localhost:5005/store', {
+    const response = await axios.get('https://coral-app-gctd3.ondigitalocean.app/store', {
       headers: {
         Authorization: token,
       },
@@ -91,7 +91,7 @@ export const saveElementStyle = async (token, elementData, presId, slideNum, nav
     elements[id].position_x = left;
     elements[id].position_y = top;
 
-    await axios.put('http://localhost:5005/store', payload, {
+    await axios.put('https://coral-app-gctd3.ondigitalocean.app/store', payload, {
       headers: {
         Authorization: token,
       },

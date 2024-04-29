@@ -23,7 +23,7 @@ function Register ({ token, setTokenFunction }) {
   // backend call to register user
   const register = async () => {
     try {
-      const response = await axios.post('http://localhost:5005/admin/auth/register', {
+      const response = await axios.post('https://coral-app-gctd3.ondigitalocean.app/admin/auth/register', {
         email,
         password,
         name

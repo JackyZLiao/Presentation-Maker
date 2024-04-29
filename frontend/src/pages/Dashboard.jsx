@@ -19,7 +19,7 @@ function Dashboard ({ token, setTokenFunction }) {
   const navigate = useNavigate();
 
   React.useEffect(() => {
-    axios.get('http://localhost:5005/store', {
+    axios.get('https://coral-app-gctd3.ondigitalocean.app/store', {
       headers: {
         Authorization: token,
       }

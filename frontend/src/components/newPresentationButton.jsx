@@ -48,7 +48,7 @@ function NewPresentationButton ({ token, refreshStore }) {
 
     // Fetch current store of user from database
     try {
-      const response = await axios.get('http://localhost:5005/store', {
+      const response = await axios.get('https://coral-app-gctd3.ondigitalocean.app/store', {
         headers: {
           Authorization: token,
         }
@@ -79,7 +79,7 @@ function NewPresentationButton ({ token, refreshStore }) {
       payload.store.presentations[newPresentationId] = newPresentation;
 
       // update the user's store now with the new presentation
-      await axios.put('http://localhost:5005/store', payload, {
+      await axios.put('https://coral-app-gctd3.ondigitalocean.app/store', payload, {
         headers: {
           Authorization: token,
         }
