@@ -21,7 +21,7 @@ function Login ({ token, setTokenFunction }) {
   // backend call to login the user
   const login = async () => {
     try {
-      const response = await axios.post('https://axial-acrobat-421601.ts.r.appspot.com/admin/auth/login', {
+      const response = await axios.post('https://coral-app-gctd3.ondigitalocean.app//admin/auth/register', {
         email,
         password
       })
